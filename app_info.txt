@@ -1,0 +1,92 @@
+
+
+
+CREATE TABLE contacts (
+  first_name VARCHAR(100) NOT NULL,
+  last_name VARCHAR(100),
+  email VARCHAR(100) NOT NULL,
+  phone_number VARCHAR(20) NOT NULL,
+  seq INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (seq)
+);
+
+
+
+
+
+
+CREATE TABLE contacts (
+  first_name VARCHAR(100) NOT NULL,
+  last_name VARCHAR(100) ,
+  email VARCHAR(100) NOT NULL,
+  phone_number VARCHAR(20) NOT NULL,
+  seq INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (seq)
+);
+
+
+
+
+
+for i in range(1, 101):
+  first_name = 'Arvind' + str(i)
+  last_name = 'Kumar' + str(i)
+  email = 'arvind.kumar' + str(i) + '@example.com'
+  phone_number = '+91 987654321' + str(i)
+  insert into contacts (first_name, last_name, email, phone_number) values
+    (first_name, last_name, email, phone_number);
+	
+	
+	
+	
+	{
+    "firstName" :"",
+    "lastName" : "Kushwaha",
+    "email" : "satyagmail.com",
+    "phoneNumber" : "8009420"
+}
+
+
+
+
+
+https://github1s.com/osopromadze/Spring-Boot-Blog-REST-API/blob/HEAD/src/main/java/com/sopromadze/blogapi/service/impl/AlbumServiceImpl.java#L1-L134
+
+
+
+
+https://medium.com/predictly-on-tech/jpa-search-using-spring-data-example-3bb1d5c46e3b
+
+
+
+
+
+@Column(name="first_name")
+	private String firstName;
+	
+	@Column(name="last_name")
+	private String lastName;
+	
+	@Column(name="email")
+	private String email;
+
+
+firstName
+lastName
+email
+
+
+
+
+
+
+okta security detail 
+
+
+
+Client ID  :  0oa9tqkkk95OllrxZ5d7
+
+
+CLIENT SECRETS : Yjl7-8XZsDHmQR89hILDxby7LDP8zgunI5X072fT
+
+
