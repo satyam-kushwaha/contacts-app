@@ -17,7 +17,7 @@ import com.contacts.app.dto.ErrorResponseDto;
 
 @RestControllerAdvice
 @RestController
-public class HandleValidationException {
+public class HandleException {
 
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<ErrorResponseDto> handleValidationException(MethodArgumentNotValidException ex) {
@@ -34,6 +34,4 @@ public class HandleValidationException {
 	    ErrorResponseDto response = new ErrorResponseDto(new Date(), ex.getMessage(), null);
 	    return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
 	}
-	
-	
 }

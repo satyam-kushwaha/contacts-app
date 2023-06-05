@@ -16,11 +16,6 @@ import lombok.Setter;
 @Entity
 @Table(name="contacts")
 public class Contact {
-
-	public Contact() {
-		// TODO Auto-generated constructor stub
-	}
-
 	@Id
 	@Column(name="seq")
 	@GeneratedValue
