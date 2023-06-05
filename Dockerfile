@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM adoptopenjdk/openjdk11-openj9:alpine
+ADD target/contacts-app.jar /myapp/contacts-app.jar
 EXPOSE 8080
-ADD target/contacts-app.jar contacts-app.jar 
-ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
+ENTRYPOINT java -jar /myapp/contacts-app.jar
