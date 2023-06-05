@@ -80,6 +80,13 @@ email
 
 
 
+render cloud plateform
+
+
+
+
+
+
 okta security detail 
 
 
